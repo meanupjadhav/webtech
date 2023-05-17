@@ -1,0 +1,79 @@
+Slip 6
+Q1. Write java script program to accept a number from user and check whether it is prime number or not
+<html>
+<head>
+<title>
+Check a number is Prime or not using JavaScript
+</title>
+<script type="text/javascript">
+function p() {
+var n, i, flag = true;
+n = document.myform.n.value;
+n = parseInt(n)
+for(i = 2; i<= n - 1; i++)
+if (n % i == 0) {
+flag = false;
+break;
+}
+if (flag == true)
+alert(n + " is prime");
+else
+alert(n + " is not prime");
+}
+</script>
+</head>
+<body>
+<center>
+<h4>check number is prime or not</h4>
+<hr color="Green">
+<form name="myform">
+Enter the number:
+<input type="text" name=n value="">
+<br><br>
+<input type="button" value="Check" onClick="p()">
+<br>
+</form>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+Q2. Write a HTML code to display calendar of current month in tabular format. Use proper color for week days and holidays. Display month name, year and images as advertisement at the beginning of the calendar.
+<HTML>
+<HEAD>
+<TITLE> Calendar </TITLE>
+</HEAD>
+<BODY>
+<TABLE Cellpadding=”10" border=2>
+<CAPTION><H1>January 2020</H1></CAPTION>
+<TR>
+<TH><font color="red">SUN</TH><TH>MON</TH><TH>TUS</TH>
+<TH>WED</TH><TH>THU</TH><TH>FRI</TH><TH>SAT</TH>
+<TR>
+<TR>
+<TH></TH><TH></TH><TH></TH><TH>1</TH>
+<TH>2</TH><TH>3</TH><TH>4</TH>
+<TR>
+<TR>
+<TH><font color="red"><b>5</TH><TH>6</TH><TH>7</TH>
+<TH>8</TH><TH>9</TH><TH>10</TH><TH>11</TH>
+<TR>
+<TR>
+<TH><font color="red"><b>12</TH><TH>13</TH><TH>14</TH>
+<TH>16</TH><TH>17</TH><TH>18</TH><TH>19</TH>
+<TR>
+<TR>
+<TH><font color="red"><b>20</TH><TH>21</TH><TH>22</TH>
+<TH>23</TH><TH>24</TH><TH>25</TH><TH>26</TH>
+<TR>
+<TR>
+<TH><font color="red"><b>27</TH><TH>28</TH><TH>29</TH>
+<TH>30</TH><TH></TH><TH></TH><TH></TH>
+<TR>
+</TABLE>
+</BODY>
+</HTML>

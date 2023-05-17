@@ -1,0 +1,138 @@
+Slip 1
+Q1. Write a JavaScript program to calculate the volume of a sphere.
+
+<html>
+<head><title>pro4</title>
+<script>
+function volume()
+{
+vart_val=document.getElementById("txt").value;
+var rad=parseInt(t_val);
+varvol=(4.0/3.0)*Math.PI*Math.pow(rad,3);
+document.getElementById("answer").value= vol;
+}
+</script>
+</head>
+<body>
+<label>Input radius value of Sphere: </label><br>
+<label>Raduis: </label><input type="text" id="txt" size="30"/><br>
+<button onclick="volume()">Find volume</button><br>
+abel> Volume: </label><input type="text" id="answer" size="30"/><br>
+</body>
+</html>
+
+Q2 Create HTML page to Divide the frames in to different sections as shown below and add appropriate HTML files to each frame.
+First Frame : Your Name and address
+Second Frame :
+Bulleted list of favouritecolours
+Third Frame :
+Numbered List of Cities
+Fourth Frame:
+Scrolling Message
+Fifth Frame:
+Blinking Reminders
+Sixth Frame:
+Name of Countries
+First.html
+
+<html>
+<body>
+<h3 align="Center"> Name: XYZ
+<address>
+PQR
+Pimpri Pune-17
+</address>
+</h3>
+</body>
+</html>
+Second.html
+<html>
+<body>
+<h4> My favouritecolours</h4>
+<ul type="disc">
+<li>Red</li>
+<li> Pink</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+</body>
+</html>
+Third.html
+<html>
+<body>
+<h4> List of City </h4>
+<Ol type="A">
+<li>Pune</li>
+<li>Pimpri</li>
+<li>Mombay</li>
+<li>Nasik</li>
+</Ol>
+</body>
+</html>
+Fourth.html
+<html>
+<body>
+<h3 align="Center">
+<pre>
+hhhhhhhhhhhhhhhhh
+jjjjjjjjjjjjjjjjjjj
+jjjjjjjjjjjjjjjjjjjj
+ffffffffffffff
+sdddddddddddwer
+sdfrgergergv
+rtgrrrrrrrrr
+rtrtrtrtrtrtrtrtrtrtrtrtrt
+erat5r
+etyteyty
+</pre>
+</h3>
+</body>
+</html>
+Fifth.html
+<html>
+<head>
+<title>Title of the document</title>
+<style>
+.blink
+{
+animation: blinker 0.6s linear infinite;
+color: pink;
+font-size: 30px;
+font-weight: bold;
+}
+@keyframes blinker
+{
+50% { opacity: 0;
+}
+</style>
+</head>
+<body>
+<p class="blink">Blinking text</p>
+</body>
+</html>
+Sixth.html
+<html>
+<body>
+<h4> List of Country </h4>
+<Ol type="1">
+<li>India</li>
+<li> US</li>
+<li>UK</li>
+</Ol>
+</body>
+</html>
+Frame.html
+<html>
+<frameset rows="*,*,*">
+<frame src="first.html"></frame>
+<frameset cols="*,*">
+<frame src="second.html"></frame>
+<frame src="third.html"></frame>
+</frameset>
+<frameset cols="*,*,*">
+<frame src="fourth.html"></frame>
+<frame src="blink.html"></frame>
+<frame src="sixth.html"></frame>
+</frameset>
+</frameset>
+</html>

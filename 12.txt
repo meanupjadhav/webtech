@@ -1,0 +1,57 @@
+Slip 12
+Q1. Design a student registration form with fields Name, Address, city and Pin-Code. Write a java script program to perform following validation
+i. Check name should not be empty and contain alphabets only
+ii. Pin-code must be 6 digits only
+<html>
+<head>
+<title>Javascript Validation </title>
+<script>
+function validate()
+{
+sname=document.getElementById("nm").value;
+smobile=document.getElementById("mb").value;
+saddress=document.getElementById("add").value;
+scity=document.getElementById("ct").value;
+sstate=document.getElementById("st").value;
+spin=document.getElementById("pin").value;
+if(sname==""||smobile==""||saddress==""||scity==""||sstate==""||spin=="")
+{
+alert("Fields should not be empty");
+return false;
+}
+else if(!sname.match(/^[A-Za-z]+$/))
+{
+alert("Name should contain only characters")
+return false;
+}
+else if(!smobile.match(/^\d{10}$/))
+22
+{
+alert("Mobile number Not valid")
+return false;
+}
+else if(!spin.match(/^\d{6}$/))
+{
+alert("Pin number Not valid")
+return false;
+}
+alert("Valid");
+return false;
+}
+</script>
+<body>
+<form name="frmStudent">
+Student Registration Form<br><br>
+Name of Student:<input type=text name=txtname id=nm size=30><br><br>
+Mobile No:<input type=text name=txtSmobile id=mb size=30><br><br>
+
+Address Line:<input type=text name=txtSaddress id=add size=30><br><br>
+
+City:<input type=text name=txtScity id=ct size=30><br><br>
+State:<input type=text name=txtSstate id=st size=30><br><br>
+Pincod:<input type=text name=txtSpin id=pin size=30><br><br>
+<input type=submit value="Submit" onClick="return validate()">
+<input type=reset value="Reset">
+</form>
+</body>
+</html>

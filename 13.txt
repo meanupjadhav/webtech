@@ -1,0 +1,82 @@
+Slip 13
+Q1. Design a login form with fields User Name, Password and Login button. Write a java script code to accept username and password, validate login details and display a message accordingly.
+<html>
+<head>
+<title>Javascript Login Form Validation</title>
+<script>
+function validate()
+{
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+varcpassword = document.getElementById("cpassword").value;
+if (username=="" || password=="" || cpassword=="" )
+{
+alert ("Fields Should not b empty");
+}
+23
+else if(password==cpassword)
+{
+alert("You entered all the details ");
+return false;
+}
+else
+alert("Password Fields doesn't match");
+}
+</script>
+<body>
+<h2>Javascript Login Form Validation</h2>
+<form id="form_id" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/></br></br>
+<label>Password :</label>
+<input type="password" name="password" id="password"/></br></br>
+<label> Confirm Password :</label>
+<input type="password" name="cpassword" id="cpassword"/></br></br>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+Q2. Write a HTML code which will divide web page in three frames. First frame should consists of name of college as heading. Second frame should consists of name of courses with hyperlink. Once click on any course it should display subject of that course in third frame.
+Heading.html
+<html>
+<body>
+<h1 align="center"> Mahatma PhuleMahavidyalya, Pimpri Pune 17 <h1>
+</body>
+</html>
+List.html
+<html>
+<body>
+<ol type="1">
+<li><a href="BCA.html" target="frm3"> BCA </a></li>
+<li>BCOM </li>
+<li>BSC</li>
+<li>BA </li>
+</ol>
+</body>
+</html>
+BCA.html
+<html>
+<body>
+Bachelor in Computer Application (BCA) is an undergraduate degree course in
+24
+computer applications.
+With the rapid growth of IT industry in India, the demand of computer professionalis increasing day by day.
+This increasing growth of IT industry has created a lot of opportunities for the computer graduates.
+</body>
+</html>
+Frame.html
+<html>
+<frameset rows="20%,*">
+<frame src="heading.html"></frame>
+<frameset cols="40%,*">
+<frame src="list.html"></frame>
+<frame src="" name="frm3"></frame>
+</frameset>
+</frameset>
+</html>

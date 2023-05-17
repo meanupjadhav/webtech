@@ -1,0 +1,112 @@
+Slip 11
+Q1. Write a JavaScript program to accept a string and a position (number) from user and display the character at specified position.
+<html>
+<body>
+<script type = "text/javascript">
+varstr=new String(prompt("Enter a string"));
+var no=new String(prompt("Enter the specific position"));
+for(i=0;i<str.length;i++)
+{
+varch=str.charAt(no);
+break;
+}
+document.writeln("Characte at given postion is: " + ch);
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q2. Write HTML code which generates the following output and display each element of list in different size, color & font. Use external CSS to format the list
+20
+• Non flowering plants
+o Fern
+o Spore
+• Flowering plants
+ Lilly
+ Rose
+1. Red Rose
+2. Pink Rose
+Slip11.css
+ul.u1 {
+background: pink;
+padding: 20px;
+font-family : arial;
+font-size : 20;
+list-style-type:disc;
+}
+ul.u2 {
+background: pink;
+list-style-type: circle;
+font-family : "Times new roman";
+font-size : 25;
+}
+ul.u3 {
+background: pink;
+font-family : arial;
+font-size : 27;
+list-style-type: square;
+}
+ol.u4 {
+background: pink;
+font-family : arial;
+font-size : 27;
+list-style-type: decimal;
+}
+ul li {
+background: lightblue;
+margin: 5px;
+font-family : arial;
+font-size : 25;
+}
+Slip11.html
+<html>
+<head>
+<link rel="stylesheet" href="slip11.css">
+</head>
+<body>
+21
+<ul class="u1">
+<li>Non flowering plant</li>
+<ul class="u2">
+<li>Fern</li>
+<li>Spore</li>
+</ul>
+<li> flowering plant </li>
+<ul class="u3">
+<li> Lilly</li>
+<li> Rose </li>
+<ol class="u4">
+<li>Red Rose</li>
+<li>Pink Rose</li>
+</ol>
+</ul>
+</ul>
+</body>
+</html>

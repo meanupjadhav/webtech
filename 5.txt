@@ -1,0 +1,88 @@
+Slip 5
+Q.1Write a java script program to accept a number from user and check whether it is perfect number or not.
+<html>
+<head>
+<script>
+function perfectNumber()
+{
+varflag,number,remainder,addition = 0,i;
+number = parseInt(document.getElementById("N").value);
+flag = number;
+for(i = 0; i< number; i++)
+{
+remainder = number%i;
+if(remainder==0)
+{
+addition =addition+i;
+}
+}
+if(addition == flag)
+{
+window.alert("-The inputed number is Perfect");
+}
+else
+{
+window.alert("-The inputed number is not Perfect");
+}
+}
+</script>
+</head>
+<body>
+<br>
+<h1>Whether a number is Perfect or not</h1>
+Enter The Number :<input type="text" name="n" id = "N"/>
+<hr color="cyan">
+<br>
+<center><button onClick="perfectNumber()">CHECK</button>
+</body>
+</html>
+
+
+
+
+Q2. Write HTML code to design a website for Online Shopping. Design home page which consist of list of items each with hyperlink, clicking on which should display related information on separate web page. (Use external CSS to format each web page)[25]
+a.css
+body{ background-color: lightblue; background-color: lightblue; }
+h1 { color: navy; color: navy; margin-left: 20px; margin-left: 20px; }
+frames.html
+<html><head><title> Frame Example </title></head><frameset rows="30%,*">
+<frame src="header.html" name="frame1">
+<frameset cols="30%,*">
+<frame src="links.html" name="frame2">
+<frame src="pune.html" name="frame3">
+</frameset>
+</frameset>
+</html>
+header.html
+<html>
+<body>
+<h1 align="center"><font color="red">Online Shopping</FONT></H1>
+</BODY>
+</HTML>
+links.html
+<html>
+<body>
+<b>Item</b><br>
+<ol type="1">
+<li><a href="pune.html" target="frame3">Shirt</A></li><br>
+<li><a href="b.html" target="frame3">Jeans</A></li><br>
+</ol>
+</body>
+</html>
+pune.html
+<html>
+<head><link rel="stylesheet" type="text/css" href="a.css"></head><body><h3>Shirt</h3>
+<ul type="disc"><li>Price </li></ul>
+<imgsrc="a.jpg" height="30%" width="40%">
+</body>
+</html>
+b.html
+<html>
+<head><link rel="stylesheet" type="text/css" href="a.css"></head>
+11
+<body>
+<h3>Jeans</h3>
+<ul type="disc"><li>Price </li></ul>
+<imgsrc="a.jpg" height="30%" width="40%">
+</body>
+</html>

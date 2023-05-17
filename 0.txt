@@ -1,0 +1,210 @@
+1.1 Write a JavaScript program to calculate the volume of a sphere.
+
+1.2 Create HTML page to Divide the frames in to different sections as shown below and add appropriate HTML files to each frame.
+First Frame : Your Name and address
+Second Frame :
+Bulleted list of favouritecolours
+Third Frame :
+Numbered List of Cities
+Fourth Frame:
+Scrolling Message
+Fifth Frame:
+Blinking Reminders
+Sixth Frame:
+Name of Countries
+First.html
+
+2.1 Write a java script program to accept a number form user and display its multiplication table
+<HTML><body>
+
+2.2 Write the HTML code to create the following table. Use internal CSS to format the table
+Book_No
+Book_Name
+Price
+RS
+Paise
+101
+DBMS
+200
+50
+102
+C-Prog
+150
+75
+103
+JAVA
+300
+00
+104
+PHP
+250
+50
+105
+ASP
+100
+00
+5
+
+3.1 Write a java script program to accept a number form user and calculate and display its sum of digits
+
+3.2 Write HTML code to design a web as per given specification. Divide the browser screen into two frames. The first frame will display the heading. Divide the second frame into two columns. The frame on the left should be name of cities consisting of hyperlinks. Clicking on any one of these hyperlinks will display related information in right hand side frame as shown below
+IT Industries in INDIA
+City
+1. Pune
+2. Mumbai
+Pune
+• Infosys
+• Persistent
+Heading.html
+
+4.1 Write a java script program to accept a number from user and check whether it is Armstrong number or not
+
+4.2 Create HTML web page with following specification Title should be about your College.
+i) Put image in the background
+8
+ii) Place your college name at the top of page in large text followed by address in smaller size.
+iii) Add names of courses offered, each in different color, style and font
+iv) Add scrolling text about college.
+v) Add any image at the bottom. (use External CSS to format the webpage)
+Slip4.css
+body{background-image: url("college.jpg");}
+h1{text-align: center ; Color: red; font-size :50;}
+address{text-align: center ; Color: blue; font-size :20;}
+h4{Color: red; font-size :30;}
+.p1 { font-size: 15; color:green; font-family :"Times new roman"; font-style:italic;}
+.p2{center; font-size: 19; color:blue; font-family: arial; font-style:bold;}
+
+.p3{ font-size: 25; color:pink; font-family: calibri;font-style:underline;}
+div.ex1 {
+background-color: lightblue;
+width: 600px;
+height: 150px;
+overflow: scroll;
+}
+img {
+border: 1px solid red;
+border-radius: 4px;
+padding: 5px;
+width: 150px;
+}
+Slip4.html
+
+5.1 Write a java script program to accept a number from user and check whether it is perfect number or not.
+
+5.2 Write HTML code to design a website for Online Shopping. Design home page which consist of list of items each with hyperlink, clicking on which should display related information on separate web page. (Use external CSS to format each web page)[25]
+a.css
+body{ background-color: lightblue; background-color: lightblue; }
+h1 { color: navy; color: navy; margin-left: 20px; margin-left: 20px; }
+frames.html
+
+6.1 Write java script program to accept a number from user and check whether it is prime number or not
+
+6.2 Write a HTML code to display calendar of current month in tabular format. Use proper color for week days and holidays. Display month name, year and images as advertisement at the beginning of the calendar.
+
+7.1 Write a java script program to accept a string from user and display the count of vowel characters from that string.
+
+7.2 Write a HTML code to display Theory Time Table of FYBBA (CA). Use internal CSS to format the table [25]
+
+8.1 Write a java script program to accept a string and character from user and check the count of occurrences of that character in string.
+
+8.2 Create HTML page with following specifications
+i) Title should be about your self.
+ii) color the background should be pink.
+iii) Place your name at the top of page in large text and centered.
+iv) Add names of your family members each in different size, color, style and font.
+v) Add scrolling text about your family.
+vi) Add any image at the bottom. (Use internal CSS to format the web page)
+
+9.1 Write a java script program to accept a string and check whether the input string is palindrome string or not
+html>
+
+9.2 Q2. Write the HTML code which generates the following output.(use internal CSS to format the table
+Country
+Population (in Crores)
+INDIA
+1998
+85
+1999
+90
+2000
+100
+USA
+1998
+30
+1999
+35
+2000
+40
+UK
+1998
+25
+1999
+30
+2000
+35
+17
+
+10.1 Write a JavaScript Program to read a number from user, store its factors into the array and display that array. (Handle onClick Event)
+
+10.2 Write HTML code, which generates the following output, and display each element of list in different size, color & font. Use inline CSS to format the list.[25]
+1. DYP
+• Courses
+ BCS
+ BCA
+2. Indira
+• Courses
+ BCA
+ MCs
+3. ATSS
+• Courses
+ BBA
+ BCS
+
+11.1 Write a JavaScript program to accept a string and a position (number) from user and display the character at specified position.
+
+11.2 Write HTML code which generates the following output and display each element of list in different size, color & font. Use external CSS to format the list
+20
+
+12 Design a student registration form with fields Name, Address, city and Pin-Code. Write a java script program to perform following validation
+i. Check name should not be empty and contain alphabets only
+ii. Pin-code must be 6 digits only
+
+13.1 Design a login form with fields User Name, Password and Login button. Write a java script code to accept username and password, validate login details and display a message accordingly.
+
+13.2 Write a HTML code which will divide web page in three frames. First frame should consists of name of college as heading. Second frame should consists of name of courses with hyperlink. Once click on any course it should display subject of that course in third frame.
+Heading.html
+
+14.1 Write a HTML code to display the name of your family members each in different color, size and style. Also display the following polynomial expression
+a0+a1x1+a2x2+a3x3+a4x4
+
+14.2 Write a JavaScript Program to accept user name and password from user, if User name and Password is same then display his score card on the next page as shown below.
+Password.html
+
+15.1 Write a JavaScript program to Display current Day, Date, Month, Year and Time on the web page and greet the user accordingly.
+
+15.2 Create HTML page with following specifications
+i) Title should be about your City.
+ii) Color the background by Pink color.
+iii) Place your city name at the top of page in large text and in blue color.
+iv) Add names of the landmarks in your city, each in different color, style and font
+v) Add scrolling text about your City.
+vi) Add any image at the bottom.
+(Use inline CSS to format the web page)
+
+16.1 Write a java script code to accept a sentence from the user and alters it as follows: Every space is replaced by * and digits are replaced by?
+
+16.2 Write HTML code, which generates the following output, and display each element of list in different size, color & font. Use inline CSS to format the list.[25]
+• Honda
+ Petrol
+1. Honda City
+2. Brio
+ Diesel
+29
+1. Amaze
+2. Brio
+•Maruti-Suzuki
+ Petrol
+1. Swift
+2. Ritz
+ Diesel
+1. Swift-Desire

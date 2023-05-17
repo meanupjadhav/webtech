@@ -1,0 +1,81 @@
+Slip 7
+Q1. Write a java script program to accept a string from user and display the count of vowel characters from that string.
+<HTML><body>
+<script>
+function find()
+{
+var vowels = 0;
+var consonant = 0;
+13
+varspecialChar = 0;
+var digit = 0;
+varstr=frm.txt1.value;
+var n = str.length;
+vari;
+for (i = 0; i< n; i++)
+{
+varch = str[i];
+if ( (ch>= 'a' &&ch<= 'z') || (ch>= 'A' &&ch<= 'Z') )
+{
+if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+vowels++;
+else
+consonant++;
+}
+else if (ch>= '0' &&ch<= '9')
+digit++;
+else
+specialChar++;
+}
+alert( "Vowels: " + vowels + "Consonant:" + consonant +"Digit:" + digit +"Special Character:" + specialChar ) ;
+}
+</script>
+<form name="frm">
+Enter a String:<input name="txt1" type="text" />
+<input name="b1" onclick="find();" type="button" value="display" /></form>
+</BODY>
+</HTML>
+
+
+
+
+
+
+Q2. Write a HTML code to display Theory Time Table of FYBBA (CA). Use internal CSS to format the table [25]
+<html>
+<head>
+<style>
+body
+{
+background-image: url("abc.jpg");
+}
+table, th, td {
+border: 1px solid red;
+}
+</style>
+</head>
+<body>
+14
+<b><font color="red">Time Table 2020</font></b>
+<table >
+<tr>
+<td>Time</td>
+<td>Mon</td>
+<td>Tues</td>
+<td>Wed</td>
+<td>Thurs</td>
+<td>Fri</td>
+<td>Sat</td>
+</tr>
+<tr>
+<td>09:00-09:45</td>
+<td>Rdbms</td>
+<td>C</td>
+<td>OB</td>
+<td>BM</td>
+<td>F A/C</td>
+<td>WT</td>
+</tr>
+</table>
+</body>
+</html>

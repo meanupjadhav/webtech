@@ -1,0 +1,103 @@
+Slip 14
+Q1. Write a HTML code to display the name of your family members each in different color, size and style. Also display the following polynomial expression
+a0+a1x1+a2x2+a3x3+a4x4
+<html>
+<head>
+<title> Polynomial Expression </title>
+</head>
+<body>
+<H1>a<sub>0</sub> + a<sub>1</sub>x<sup>1</sup> + a<sub>2</sub>x<sup>2</sup> + a<sub>3</sub>x<sup>3</sup>
+</body>
+</html>
+
+Q2. Write a JavaScript Program to accept user name and password from user, if User name and Password is same then display his score card on the next page as shown below.
+Password.html
+<html>
+<head>
+<SCRIPT Language="JavaScript">
+25
+function checkLogin(x)
+{
+if (x.id.value!=x.pass.value)
+{
+alert("Invalid Login");
+return false;
+}
+else
+location="link.html"
+}
+</script>
+</head>
+<body>
+<form>
+<p>UserID:<input type="text" name="id"></p>
+<p>Password:<input type="password" name="pass"></p>
+<p><input type="button" value="Login" onClick="checkLogin(this.form)"></p>
+</form>
+</body>
+</html>
+Link.html
+<html>
+<head></head>
+<body>
+<table bgcolor="pink" border="2">
+<tr>
+<th>sr no.</th>
+<th>Subject</th>
+<th>External Exam(Out of 80)</th>
+<th>Internal(Out of 20)</th>
+<th>Total Marks(out of 100)</th>
+<th>Remark</th>
+</tr>
+<tr>
+<th>501</th>
+<th>core jave</th>
+<th>56</th>
+<th>15</th>
+<th>71</th>
+<th>pass</th>
+</tr>
+<tr>
+<th>502</th>
+<th>Web Technology</th>
+<th>67</th>
+<th>18</th>
+26
+<th>85</th>
+<th>pass</th>
+</tr>
+<tr>
+<th>503</th>
+<th>.Net</th>
+<th>70</th>
+<th>19</th>
+<th>89</th>
+<th>pass</th>
+</tr>
+<tr>
+<th>504</th>
+<th>Object Oriented Software engineering</th>
+<th>52</th>
+<th>15</th>
+<th>67</th>
+<th>pass</th>
+</tr>
+<tr>
+<th>505</th>
+<th>project</th>
+<th>-</th>
+<th>-</th>
+<th>-</th>
+<th>-</th>
+</tr>
+<tr>
+<th>506</th>
+<th>practical</th>
+<th>-</th>
+<th>-</th>
+<th>-</th>
+<th>-</th>
+</tr>
+</table>
+</body>
+</html>

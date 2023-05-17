@@ -1,0 +1,90 @@
+Slip 4
+Q1. Write a java script program to accept a number from user and check whether it is Armstrong number or not
+<html>
+<head>
+<script>
+function armstr()
+{
+var arm=0,a,b,c,d,num;
+num=Number(document.getElementById("no_input").value);
+temp=num;
+while(temp>0)
+{
+a=temp%10;
+temp=parseInt(temp/10); // convert float into Integer
+arm=arm+a*a*a;
+}
+if(arm==num)
+{
+alert("Armstrong number");
+}
+else
+{
+alert("Not Armstrong number");
+}
+}
+</script>
+</head>
+<body>
+Enter any Number: <input id="no_input">
+<button onclick="armstr()">Check</button></br></br>
+</body>
+</html>
+
+
+Q2. Create HTML web page with following specification Title should be about your College.
+i) Put image in the background
+8
+ii) Place your college name at the top of page in large text followed by address in smaller size.
+iii) Add names of courses offered, each in different color, style and font
+iv) Add scrolling text about college.
+v) Add any image at the bottom. (use External CSS to format the webpage)
+Slip4.css
+body{background-image: url("college.jpg");}
+h1{text-align: center ; Color: red; font-size :50;}
+address{text-align: center ; Color: blue; font-size :20;}
+h4{Color: red; font-size :30;}
+.p1 { font-size: 15; color:green; font-family :"Times new roman"; font-style:italic;}
+.p2{center; font-size: 19; color:blue; font-family: arial; font-style:bold;}
+
+.p3{ font-size: 25; color:pink; font-family: calibri;font-style:underline;}
+div.ex1 {
+background-color: lightblue;
+width: 600px;
+height: 150px;
+overflow: scroll;
+}
+img {
+border: 1px solid red;
+border-radius: 4px;
+padding: 5px;
+width: 150px;
+}
+Slip4.html
+<html>
+<head>
+<title>
+College Name: Mahatma PhuleMahavidyalaya, Pimpri Pune -17
+</title>
+<link rel="stylesheet" href="slip4.css">
+</head>
+<body>
+<h1>College Name: Mahatma PhuleMahavidyalaya</h1>
+<address>Pimprii -17</address>
+<h4> Course Offered </h4>
+<p class=p1>B.A.</p1>
+<p class=p2>B.Sc.</p1>
+<p class=p3>BBA(Computer Application)</p1>
+<div class=ex1>
+ABOUT MAHATMA PHULE MAHAVIDYALAYA
+We are proud to be RayatShikshanSanstha's well-established Arts, Commerce and Science College over the last three decades. We are NAAC Re-accredited college with A grade.
+Following are some of the features of the college :
+- B.A., B.Com., B.Sc., BCA. U.G Degree Programmes.
+- M.A. (Economics, Marathi, Geography, History, Hindi) P.G Programme.
+- M.Sc. (Organic Chemistry) P.G Programme.
+- M.com P.G Programme.
+- "Earn and Learn Scheme", - Scholarships from State Govt. for SC/NT/ST/OBC and economically backward students and other merit scholarships.
+</div>
+<imgsrc="smil.jpg"></img>
+</body>
+</html>

@@ -1,0 +1,72 @@
+Slip 3
+Q1. Write a java script program to accept a number form user and calculate and display its sum of digits
+<HTML><body>
+<script>
+function find()
+{
+var sum=0;
+var no=parseInt(frm.txt1.value);
+while(no>0)
+{
+sum=sum+no%10;
+no=Math.floor(no/10);
+}
+alert("Sum of digits "+sum);
+}
+</script>
+<form name="frm">
+Enter a Number:<input name="txt1" type="text" />
+<input name="b1" onclick="find();" type="button" value="display" /></form>
+</BODY>
+</HTML>
+
+
+Q2. Write HTML code to design a web as per given specification. Divide the browser screen into two frames. The first frame will display the heading. Divide the second frame into two columns. The frame on the left should be name of cities consisting of hyperlinks. Clicking on any one of these hyperlinks will display related information in right hand side frame as shown below
+IT Industries in INDIA
+City
+1. Pune
+2. Mumbai
+Pune
+• Infosys
+• Persistent
+Heading.html
+<html>
+<h1 align=center>IT Industries in INDIA</h1>
+</html>
+City.html
+<html>
+<h2><i>City</i><h2>
+<oll>
+<li><a href="pune.html" target=frm3>Pune</a>
+<li><a href="mumbai.html" target=frm3>Mumbai</a>
+</ol>
+</html>
+Pune.html
+<html>
+<h1> Pune </h1>
+<ul style="list-style-type:disk;">
+<li>Infosys</li>
+<li>Persistent</li>
+</ul>
+</html>
+mumbai.html
+<html>
+<h1> Pune </h1>
+<ul style="list-style-type:disk;">
+<li>Infosys</li>
+<li>Persistent</li>
+</ul>
+</html>
+Frame.html
+<html>
+<head>
+<title>slip1</title>
+</head>
+<frameset rows="20,80">
+<frame src="heading.html"></frame>
+<frameset cols="30,70">
+<frame src="list.html"></frame>
+<frame name="frm3"></frame>
+</frameset>
+</frameset>
+</html>

@@ -1,0 +1,83 @@
+Slip 16:
+Q.1 Write a java script code to accept a sentence from the user and alters it as follows: Every space is replaced by * and digits are replaced by?
+<HTML>
+<script>
+function find()
+{
+varstr=frm.txt1.value;
+var n = str.length;
+vari,ch,j;
+for(i=0;i<n;i++)
+{
+str = str.replace(" ", "*");
+str = str.replace(/[0-9]/g, "?")
+}
+alert(str);
+}
+</script>
+<form name="frm">
+Enter a String:<input name="txt1" type="text" />
+<input name="b1" onclick="find();" type="button" value="display" /></form>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q.2 Write HTML code, which generates the following output, and display each element of list in different size, color & font. Use inline CSS to format the list.[25]
+• Honda
+ Petrol
+1. Honda City
+2. Brio
+ Diesel
+29
+1. Amaze
+2. Brio
+•Maruti-Suzuki
+ Petrol
+1. Swift
+2. Ritz
+ Diesel
+1. Swift-Desire
+<html>
+<head>
+</head>
+<body>
+<ul style="color : blue;padding: 20px; font-size=20; font-family:verdana;">
+<li >Honda</li>
+<ul style="color:green; list-style-type: square; font-size=19; font-family:courier;">
+<li >Petrol </li>
+<ol style="color: red; font-size=18;font-family: arial ;">
+<li> Honda City</li>
+<li> Brio</li>
+</ol>
+<li> Diesel </li>
+<ol style="color: powderblue; font-size=17;font-family:verdana;">
+<li> Amaze</li>
+<li> Brio</li>
+</ol>
+</ul>
+<li >Maruti-Suzuki</li>
+<ul style="color: green; list-style-type: square;font-size=19; font-family:courier;">
+<li >Petrol </li>
+<ol style="color:red;font-size=18;font-family: arial">
+<li> Swift City</li>
+<li> Ritz</li>
+</ol>
+<li> Diesel </li>
+<ol style="color: powderblue;font-size=17; font-family:verdana;">
+<li> Swift-Desire</li>
+</ol>
+</ul>
+</ul>
+</body>
+</html>

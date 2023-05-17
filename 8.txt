@@ -1,0 +1,81 @@
+Slip 8
+Q1. Write a java script program to accept a string and character from user and check the count of occurrences of that character in string.
+<HTML>
+<script>
+function find()
+{
+varstr=frm.txt1.value;
+varch=frm.txt2.value;
+var n = str.length;
+var count = 0;
+for(vari=0; i<n; i++)
+{
+if(str[i] === ch)
+{
+count++;
+}
+}
+alert(count);
+}
+</script>
+15
+<body>
+<form name="frm">
+Enter a String:<input name="txt1" type="text" /><br><br>
+Enter a Charatcer:<input name="txt2" type="text" />
+
+<input name="b1" onclick="find();" type="button" value="display" /></form>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q2. Create HTML page with following specifications
+i) Title should be about your self.
+ii) color the background should be pink.
+iii) Place your name at the top of page in large text and centered.
+iv) Add names of your family members each in different size, color, style and font.
+v) Add scrolling text about your family.
+vi) Add any image at the bottom. (Use internal CSS to format the web page)
+<HTML>
+<head><TITLE><CENTER>My Self</CENTER></TITLE>
+<style>
+body{background-color:pink;}
+h1{text-align: center ; Color: red;}
+.p1{text-align: center ; font-size: 6; color:green;}
+.p2{text-align: center; font-size: 7; color:blue;}
+div.ex1 {
+background-color: lightblue;
+width: 110px;
+height: 110px;
+overflow: scroll;
+}
+img {
+border: 1px solid red;
+border-radius: 4px;
+padding: 5px;
+width: 150px;
+}
+</style>
+</head>
+<body>
+<h1> My name is : XYZ </h1>
+<p class="p1"> My Father name is: PQR </p>
+<p class="p2"> My Mother name is: ASD </p>
+<div class="ex1"> My family is best.. fbvdfjvjjfbvjjnvvtrtbjngbirjbttuhthhjihthjith 5ihji5 h5jhi5j h5jhi5yjh yhjiyjn</div>
+<imgsrc="smil.jpg"></img>
+</body>
+</HTML>

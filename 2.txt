@@ -1,0 +1,80 @@
+Slip 2
+Q1. Write a java script program to accept a number form user and display its multiplication table
+<HTML><body>
+<script>
+function find()
+{
+var no=parseInt(frm.txt1.value);
+varr,c;
+document.write( "<table border = '1' >");
+for (r = 1; r <= 10; r++)
+{
+document.write( "<tr>");
+for (c = 1; c <= no;c++)
+{
+document.write ("<td> "+ r*c +"</td>");
+}
+document.write ("</tr>");
+}
+document.write ("</table>");
+}
+</script>
+<form name="frm">
+Enter a Number:<input name="txt1" type="text" />
+<input name="b1" onclick="find();" type="button" value="display" /></form>
+</BODY>
+</HTML>
+
+Q.2 Write the HTML code to create the following table. Use internal CSS to format the table
+Book_No
+Book_Name
+Price
+RS
+Paise
+101
+DBMS
+200
+50
+102
+C-Prog
+150
+75
+103
+JAVA
+300
+00
+104
+PHP
+250
+50
+105
+ASP
+100
+00
+5
+<html>
+<head>
+<style type="text/css">
+table, th, td { border: 1px solid red ;}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<throwspan="2">Book_No</th>
+<throwspan="2">Book_Name</th>
+<thcolspan="2">Price</th>
+</tr>
+<tr>
+<th>RS</th>
+<th>Paise</th>
+</tr>
+<tr>
+<td>101</td>
+<td>DBMS</td>
+<td>200</td>
+<td>50</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,98 @@
+Slip 9
+Q1. Write a java script program to accept a string and check whether the input string is palindrome string or not
+html>
+<head>
+<script>
+function myFunction()
+{
+varstr = document.getElementById('txtbox').value;
+varorignalStr;
+str = str.toLowerCase();
+orignalStr = str;
+//reverse the entered string
+str = str.split(''); //split the entered string
+str = str.reverse(); //reverse the order
+str = str.join(''); //then join the reverse order array values
+varreverseStr = str;
+if(orignalStr == reverseStr){
+alert("The Entered String is palindrom");
+}else{
+alert("The Entered String is not paliandrom");
+}
+}
+</script>
+</head>
+<body>
+<form >
+<input type="text" id="txtbox" placeholder="Enter String" />
+<input type="button" onclick="myFunction()" value="Check Palindrome" />
+</form>
+</body>
+</html>
+
+Q2. Write the HTML code which generates the following output.(use internal CSS to format the table
+Country
+Population (in Crores)
+INDIA
+1998
+85
+1999
+90
+2000
+100
+USA
+1998
+30
+1999
+35
+2000
+40
+UK
+1998
+25
+1999
+30
+2000
+35
+17
+<html>
+<head>
+<style type="text/css">
+table, th, td { border: 2px solid green ;}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th>Country</th>
+<thcolspan="2">Population (in Crores)</th>
+</tr>
+<tr>
+<td rowspan="3">Indian</td>
+<td>1998</td>
+<td>85</td>
+</tr>
+<tr>
+<td>1999</td>
+<td>90</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>100</td>
+</tr>
+<tr>
+<td rowspan="3">USA</td>
+<td>1998</td>
+<td>30</td>
+</tr>
+<tr>
+<td>1999</td>
+<td>35</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>40</td>
+</tr>
+</table>
+</body>
+</html>
